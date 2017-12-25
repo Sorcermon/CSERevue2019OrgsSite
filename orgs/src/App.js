@@ -14,7 +14,8 @@ const App = () => {
       
       <BrowserRouter>
         <div className="content">
-        <OrgsMenu />
+          <OrgsMenu />
+
           <Route exact path="/" render={() => <Orgs orgName="socials" />} />
           <Route path="/socials" render={() => <Orgs orgName="socials" />} />
           <Route path="/webmin" render={() => <Orgs orgName="webmin" />} />

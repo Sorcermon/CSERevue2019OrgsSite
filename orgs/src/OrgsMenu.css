@@ -1,4 +1,7 @@
 .OrgsMenu{
     border-radius: 0px;
     background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100;
 }
