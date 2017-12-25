@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, BrowserRouter } from 'react-router-dom';
 import Orgs from './Orgs';
-import OrgsMenu from './Menu';
+import OrgsMenu from './OrgsMenu';
 import './Banner.css';
 import 'semantic-ui-css/semantic.min.css';
 
