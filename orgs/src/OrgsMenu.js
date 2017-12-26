@@ -26,6 +26,7 @@ class OrgsMenu extends Component {
               <Menu.Item as={ NavLink } to="/foh" name='front of house and ticketing' active={activeItem === 'front of house and ticketing'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to="/band" name='band' active={activeItem === 'band'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to="/promotions" name='promotions' active={activeItem === 'promotions'} onClick={this.handleItemClick} />
+              <Menu.Item as={ NavLink } to="/videos" name='videos' active={activeItem === 'videos'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to="/scripts" name='scripts' active={activeItem === 'scripts'} onClick={this.handleItemClick} />
             </Menu>
           </div>

@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/foh" render={() => <Orgs orgName="foh" />} />
           <Route path="/band" render={() => <Orgs orgName="band" />} />
           <Route path="/promotions" render={() => <Orgs orgName="promotions" />} />
+          <Route path="/videos" render={() => <Orgs orgName="videos" />} />
           <Route path="/scripts" render={() => <Orgs orgName="scripts" />} />
         </div>
       </BrowserRouter>
