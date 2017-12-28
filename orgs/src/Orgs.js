@@ -1,20 +1,23 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import orgsDescriptions from './orgsDescriptions' 
+import { Container } from 'semantic-ui-react'
+import OrgsHeader from './OrgsHeader'
 
 class Orgs extends Component {
   render() {
     const orgsDescription = orgsDescriptions.filter((orgsDescription) => orgsDescription.orgsName === this.props.orgName)[0];
     return(
-      <div className="orgsDescription">
-        <br />
-        <h1>{this.props.orgName}</h1>
-        {orgsDescription.description1}
-        <ul>
-          {orgsDescription.responsibilities.map(function(responsibility, index){
-            return <li key={ index }>{responsibility}</li>
-          })}
-        </ul>
-        {orgsDescription.description2}
+      <div className="Orgs">
+        <Container text style={{ marginTop: '3em' }}>
+          <OrgsHeader orgName={this.props.orgName} orgsHeaderName={orgsDescription.orgsHeaderName} />
+          {orgsDescription.description1}
+          <ul>
+            {orgsDescription.responsibilities.map(function(responsibility, index){
+              return <li key={ index }>{responsibility}</li>
+            })}
+          </ul>
+          {orgsDescription.description2}
+        </Container>
       </div>
     );
   }

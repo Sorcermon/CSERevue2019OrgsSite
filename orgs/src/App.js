@@ -1,15 +1,16 @@
-import React from 'react';
-import { Route, BrowserRouter } from 'react-router-dom';
-import Orgs from './Orgs';
-import OrgsMenu from './OrgsMenu';
-import './Banner.css';
-import 'semantic-ui-css/semantic.min.css';
+import React from 'react'
+import { Route, BrowserRouter } from 'react-router-dom'
+import Orgs from './Orgs'
+import OrgsMenu from './OrgsMenu'
+import './Banner.css'
+import 'semantic-ui-css/semantic.min.css'
+import { Header, Icon } from 'semantic-ui-react'
 
 const App = () => {
   return (
     <div className="App">
       <div className="Banner">
-        <h1>CSE Revue 2018 Orgs Head Role Descriptions</h1>
+        <Header size='huge' textAlign='center'>CSE Revue 2018 Orgs Head Role Descriptions</Header>
       </div>
       
       <BrowserRouter>
@@ -28,6 +29,10 @@ const App = () => {
           <Route path="/promotions" render={() => <Orgs orgName="promotions" />} />
           <Route path="/videos" render={() => <Orgs orgName="videos" />} />
           <Route path="/scripts" render={() => <Orgs orgName="scripts" />} />
+          <Route path="/vocals" render={() => <Orgs orgName="vocals" />} />
+          <Route path="/choreos" render={() => <Orgs orgName="choreos" />} />
+          <Route path="/vos" render={() => <Orgs orgName="vos" />} />
+
         </div>
       </BrowserRouter>
 

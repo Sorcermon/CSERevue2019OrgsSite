@@ -1,6 +1,8 @@
 const orgsDescriptions = [
   {
     'orgsName': 'socials',
+    'orgsHeaderName': 'Socials',
+    'orgsEmoji': './emojipics/socials.png',
     'description1': 'The social team is responsible for the organisation/planning of events. These events include BBQs, trivia nights, pub crawls, board game nights, camp, etc. As a social head, your responsibilities include:',
     'responsibilities': [
       'Organising events for the society',
@@ -13,6 +15,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'webmin',
+    'orgsHeaderName': 'Webmin',
     'description1': 'The webmin head is responsible for the upkeep and creation of technology tools used for Revue. The role involves heavy web development as well as management of email systems and databases. There is no requirement of prior heavy web development skills for this role, just a desire to learn. The responsibilities for webmin include:',
     'responsibilities': [
       'Upkeep of booking system (RBS)',
@@ -24,6 +27,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'design',
+    'orgsHeaderName': 'Design',
     'description1': 'The design team is responsible for the creation of all show related promotional materials, as well as the programme for the show. Your designs will help present the image of the show. As design head, you will be responsible for creating and organising teams for the designs. You will be responsible for working with directors to ensure designs match with their creative vision for the show. Key Responsibilities include organising a team to create',
     'responsibilities': [
       'One A2 size poster',
@@ -37,6 +41,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'costumes',
+    'orgsHeaderName': 'Costumes',
     'description1': 'The costumes team is responsible for crafting specialty costumes needed for show. Costumes work begins from the start of second semester, with a heavy workload in the weeks leading up to show. As costumes head, you will need to:',
     'responsibilities': [
       'Form a reliable team of people to help create costumes',
@@ -50,6 +55,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'wellbeing',
+    'orgsHeaderName': 'Wellbeing',
     'description1': 'The wellbeing team will be interacting mostly with cast and tech members. The wellbeing heads’ main focus is to support the mental and physical health of participants in revue. This role will require the wellbeing heads to:',
     'responsibilities': [
       'Interact with members of society',
@@ -66,6 +72,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'publicity',
+    'orgsHeaderName': 'Publicity',
     'description1': 'As publicity head, you will create and organise a team to help with publications. Your main responsibilities will be to:',
     'responsibilities': [
       'Create Faceboook banners for events',
@@ -79,6 +86,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'foh',
+    'orgsHeaderName': 'Front of House and Ticketing',
     'description1': 'The front of house and ticketing team handle the face-to-face interactions with audience members, primarily during production week and show week. The FOH heads’ main responsibilities are to:',
     'responsibilities': [
       'Organise rosters for ticket selling during show nights, show week and production week',
@@ -92,6 +100,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'band',
+    'orgsHeaderName': 'Band',
     'description1': 'The band is a crucial part of show, performing both band numbers (items exclusively featuring the band) and backing tracks for dances and musical items performed by cast members. As a band head, you will be responsible for:',
     'responsibilities': [
       'Holding auditions and selecting band members',
@@ -104,6 +113,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'promotions',
+    'orgsHeaderName': 'Promotions',
     'description1': 'Effective promoting is critical to getting an audience to come see show. Promos involves a substantial proportion of society members (including all of cast) and a large concentrated effort during production week and show week. As promotions head, you will need to:',
     'responsibilities': [
       'Recruit promos team members',
@@ -118,6 +128,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'videos',
+    'orgsHeaderName': 'Videos',
     'description1': 'The videos team is responsible for filming, editing and producing videos to be shown on all show nights, as well as filming show itself. Videos heads will need to:',
     'responsibilities': [
       'Work with directors to create theme reveal video, promotional videos and short video sketches for show',
@@ -131,6 +142,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'scripts',
+    'orgsHeaderName': 'Scripts',
     'description1': 'Scripts has always been an extremely important aspect of show, however the scripts team has historically had no designated leader. This year we will be opening positions for up to two scripts heads to give the scripts team the leadership it deserves, in an effort to improve the overall quality of scripts. As scripts head you will be working closely with directors to write sketch content for CSE Revue, by helping run scripts blocks and refining scripts in the leadup to show. Your exact duties will be to:',
     'responsibilities': [
       'Attend and help run scripts blocks',
@@ -140,7 +152,32 @@ const orgsDescriptions = [
       'Help directors modify and refine scripts after each tech viewing'
     ], 
     'description2': 'This role will involve consistent work across both semesters.'
+  },
+  {
+    'orgsName': 'vocals',
+    'orgsHeaderName': 'Vocals',
+    'description1': 'As a vocal director, you will be responsible for teaching one part (Soprano, Alto, Tenor, or Bass) of a choral piece involving the entire cast, as well as a second acapella piece involving a smaller number of individuals. You will be needed for at least one rehearsal a week, lasting approximately 4-5 hours. At least one vocal director will need to arrange the music, so if you are able to do so, please say so in your application. Vocal directors may also have the opportunity to work one-on-one with vocal soloists to improve their singing.',
+    'responsibilities': [
+    ], 
+    'description2': ''
+  },
+  {
+    'orgsName': 'choreos',
+    'orgsHeaderName': 'Choreographers',
+    'description1': 'The role of choreographer is very rewarding for both entry level and experienced choreographers alike. You will be responsible for creating and teaching the choreo of a single dance piece, which may either involve the whole of cast, or a select subset of more rhythmically talented casties. You will have approximately 2 hours of rehearsal time a week to teach your dance piece over a 7-week period. You may choreo in a pair with someone else, given a suitable number of applicants.',
+    'responsibilities': [
+    ], 
+    'description2': ''
+  },
+  {
+    'orgsName': 'vos',
+    'orgsHeaderName': 'Voice Overs',
+    'description1': 'Voice overs fill the gaps between lights down and lights up whilst the stage is being set with humorous jokes and live audio content. As voice overs, you will be responsible for creating this content and reciting it from the commentary booth during show nights, when prompted to by the stage director. You may also be given sketch VOs by the directors to recite at specific times during a sketch. You will be required at select show run-throughs during the weeks leading up to show.',
+    'responsibilities': [
+    ], 
+    'description2': ''
   }
+
 ]
 
 export default orgsDescriptions
