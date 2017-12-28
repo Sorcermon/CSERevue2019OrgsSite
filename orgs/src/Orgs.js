@@ -9,7 +9,7 @@ class Orgs extends Component {
     return(
       <div className="Orgs">
         <Container text style={{ marginTop: '3em' }}>
-          <OrgsHeader orgName={this.props.orgName} orgsHeaderName={orgsDescription.orgsHeaderName} />
+          <OrgsHeader orgsHeaderName={orgsDescription.orgsHeaderName} />
           {orgsDescription.description1}
           <ul>
             {orgsDescription.responsibilities.map(function(responsibility, index){

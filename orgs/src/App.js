@@ -4,7 +4,7 @@ import Orgs from './Orgs'
 import OrgsMenu from './OrgsMenu'
 import './Banner.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Header, Icon } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
 
 const App = () => {
   return (
