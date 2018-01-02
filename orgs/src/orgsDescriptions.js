@@ -108,6 +108,7 @@ const orgsDescriptions = [
     'images': [
       require('./orgspics/pubs/pubs_1.jpg'),
       require('./orgspics/pubs/pubs_2.jpg'),
+      require('./orgspics/pubs/pubs_3.PNG')
     ]
   },
   {
