@@ -8,9 +8,9 @@ import { Header, Segment, Image } from 'semantic-ui-react'
 const App = () => {
   return (
     <div className="App">
-      <Segment attached color='black' inverted textAlign='center' style={{ minHeight: 100}} >
-        <Image src={ require('./orgspics/logo.png')} style={{ marginTop: '0.5em' }} size='small' inline />
-        <Header style ={{marginBottom: 0}} size='huge'>CSE Revue 2018 Orgs Head Role Descriptions</Header>
+      <Segment attached color='green' textAlign='center' style={{ minHeight: 50}} inverted >
+        <Image src={ require('./orgspics/logo.png')} style={{ marginTop: 0, marginBottom: 0 }} size='tiny' inline />
+        <Header style ={{marginBottom: 0}} color='black' size='huge'>2018 Orgs Head Role Descriptions</Header>
       </Segment>
       
       <BrowserRouter>
