@@ -16,7 +16,7 @@ class OrgsMenu extends Component {
       <div className="OrgsMenu">
         <div class="ui centered grid">
           <div class="center aligned column">
-            <Menu pagination stackable compact inverted pointing secondary>
+            <Menu inverted pointing secondary compact>
               <Menu.Item as={ NavLink } to='/socials' name='socials' active={activeItem === 'socials'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to='/webmin' name='webmin' active={activeItem === 'webmin'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to="/design" name='design' active={activeItem === 'design'} onClick={this.handleItemClick} />
