@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 import orgsDescriptions from './orgsDescriptions' 
-import { Container, Image } from 'semantic-ui-react'
+import { Button, Container, Image } from 'semantic-ui-react'
 import OrgsHeader from './OrgsHeader'
 
 class Orgs extends Component {
+
+  apply = () => {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSeCDeFyoBL_rEpWZZ-lTfmQWpk4bjnN3HP2kcCeUaKYMHnvGw/viewform?usp=sf_link', '_blank');
+  }
+
   render() {
     const orgsDescription = orgsDescriptions.filter((orgsDescription) => orgsDescription.orgsName === this.props.orgName)[0];
     return(
@@ -18,9 +23,11 @@ class Orgs extends Component {
           </ul>
           {orgsDescription.description2}
       </Container>
-      <br />
+      <p />
       <Container textAlign='center'>
-      <Image.Group size='medium'>
+        <Button onClick={this.apply} circular color='green' size='huge'>Apply Now</Button>
+        <p />
+        <Image.Group size='medium'>
           {orgsDescription.images.map(function(image, index){
               return <Image src={ image } circular  />
           })}
