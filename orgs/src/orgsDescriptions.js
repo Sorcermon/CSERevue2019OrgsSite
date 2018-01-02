@@ -48,7 +48,7 @@ const orgsDescriptions = [
     'description2': '',
     'images': [
       require('./orgspics/design/design_1.jpg'),
-      require('./orgspics/design/design_2.jpg'),
+      require('./orgspics/design/design_2.PNG'),
       require('./orgspics/design/design_3.jpg')
     ]
   },
