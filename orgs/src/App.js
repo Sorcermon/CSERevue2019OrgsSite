@@ -2,16 +2,16 @@ import React from 'react'
 import { Route, BrowserRouter } from 'react-router-dom'
 import Orgs from './Orgs'
 import OrgsMenu from './OrgsMenu'
-import './Banner.css'
 import 'semantic-ui-css/semantic.min.css'
-import { Header } from 'semantic-ui-react'
+import { Header, Segment, Image } from 'semantic-ui-react'
 
 const App = () => {
   return (
     <div className="App">
-      <div className="Banner">
-        <Header size='huge' textAlign='center'>CSE Revue 2018 Orgs Head Role Descriptions</Header>
-      </div>
+      <Segment attached color='black' inverted textAlign='center' style={{ minHeight: 100}} >
+        <Image src={ require('./orgspics/logo.png')} style={{ marginTop: '0.5em' }} size='small' inline />
+        <Header style ={{marginBottom: 0}} size='huge'>CSE Revue 2018 Orgs Head Role Descriptions</Header>
+      </Segment>
       
       <BrowserRouter>
         <div className="content">

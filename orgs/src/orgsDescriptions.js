@@ -2,7 +2,6 @@ const orgsDescriptions = [
   {
     'orgsName': 'socials',
     'orgsHeaderName': 'Socials',
-    'orgsEmoji': './emojipics/socials.png',
     'description1': 'The social team is responsible for the organisation/planning of events. These events include BBQs, trivia nights, pub crawls, board game nights, camp, etc. As a social head, your responsibilities include:',
     'responsibilities': [
       'Organising events for the society',
@@ -11,7 +10,12 @@ const orgsDescriptions = [
       'Raising awareness and membership numbers of society',
       'Assist executive in organisation of CSE Revue camp'
     ],
-    'description2': 'This will be an ongoing commitment, with an expectation of organising an event roughly every fortnight.'
+    'description2': 'This will be an ongoing commitment, with an expectation of organising an event roughly every fortnight.',
+    'images': [
+      require('./orgspics/socials/socials_1.jpg'),
+      require('./orgspics/socials/socials_2.jpg'),
+      require('./orgspics/socials/socials_3.jpg')
+    ]
   },
   {
     'orgsName': 'webmin',
@@ -23,7 +27,11 @@ const orgsDescriptions = [
       'Managing email system',
       'Potentially involved in a redesign and reconstruction of the revue website with a more modern dev stack',
     ],
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/webmin/webmin_1.jpg'),
+    ]
+
   },
   {
     'orgsName': 'design',
@@ -37,7 +45,12 @@ const orgsDescriptions = [
       '24-page programme',
       'Potentially other designs that will help promote the society and the show'
     ],
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/design/design_1.jpg'),
+      require('./orgspics/design/design_2.jpg'),
+      require('./orgspics/design/design_3.jpg')
+    ]
   },
   {
     'orgsName': 'costumes',
@@ -51,7 +64,12 @@ const orgsDescriptions = [
       'Obtain necessary materials whilst adhering to budget',
       'Ensure revue’s communal makeup boxes contain adequate supplies for show week'
     ],
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/costumes/costumes_1.jpg'),
+      require('./orgspics/costumes/costumes_2.jpg'),
+      require('./orgspics/costumes/costumes_3.jpg')
+    ]
   },
   {
     'orgsName': 'wellbeing',
@@ -68,7 +86,11 @@ const orgsDescriptions = [
       'Serve food at Tech run (1 night)',
       'Serve food on Show nights (3 nights)'
     ],
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/wellbeing/wellbeing_1.jpg'),
+      require('./orgspics/wellbeing/wellbeing_2.jpg'),
+    ]
   },
   {
     'orgsName': 'publicity',
@@ -82,7 +104,11 @@ const orgsDescriptions = [
       'Take cast photos',
       'Help with the society updates and newsletters (ENGG Newsletter/CSE Email Newsletter)'
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/pubs/pubs_1.jpg'),
+      require('./orgspics/pubs/pubs_2.jpg'),
+    ]
   },
   {
     'orgsName': 'foh',
@@ -96,7 +122,9 @@ const orgsDescriptions = [
       'Keep accurate count of ticket sales',
       'Provide those involved with show with fairy bread and drinks during intermission on show nights'
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+    ]
   },
   {
     'orgsName': 'band',
@@ -109,7 +137,10 @@ const orgsDescriptions = [
       'Working with directors to prepare music for dances and speciality items',
       'Being the main point of contact for band members to keep them informed of show and key dates'
     ], 
-    'description2': 'Band heads must be available for: Band rehearsals(organised by heads), Tech run, Dress run, show nights.'
+    'description2': 'Band heads must be available for: Band rehearsals(organised by heads), Tech run, Dress run, show nights.',
+    'images': [
+      require('./orgspics/band/band_1.jpg'),
+    ]
   },
   {
     'orgsName': 'promotions',
@@ -124,7 +155,12 @@ const orgsDescriptions = [
       'Keep promos crates stocked with necessary supplies',
       'Organise high impact promotions'
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/promos/promos_1.jpg'),
+      require('./orgspics/promos/promos_2.jpg'),
+      require('./orgspics/promos/promos_3.jpg')
+    ]
   },
   {
     'orgsName': 'videos',
@@ -138,7 +174,12 @@ const orgsDescriptions = [
       'Organise filming during show nights for production of final show DVD',
       'Running a livestream of final show night'
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/videos/videos_1.jpg'),
+      require('./orgspics/videos/videos_2.png'),
+      require('./orgspics/videos/videos_3.jpg')
+    ]
   },
   {
     'orgsName': 'scripts',
@@ -151,7 +192,10 @@ const orgsDescriptions = [
       'Assist directors in creating theme sketches',
       'Help directors modify and refine scripts after each tech viewing'
     ], 
-    'description2': 'This role will involve consistent work across both semesters.'
+    'description2': 'This role will involve consistent work across both semesters.',
+    'images': [
+      require('./orgspics/scripts/scripts_1.jpg'),
+    ]
   },
   {
     'orgsName': 'vocals',
@@ -159,7 +203,10 @@ const orgsDescriptions = [
     'description1': 'As a vocal director, you will be responsible for teaching one part (Soprano, Alto, Tenor, or Bass) of a choral piece involving the entire cast, as well as a second acapella piece involving a smaller number of individuals. You will be needed for at least one rehearsal a week, lasting approximately 4-5 hours. At least one vocal director will need to arrange the music, so if you are able to do so, please say so in your application. Vocal directors may also have the opportunity to work one-on-one with vocal soloists to improve their singing.',
     'responsibilities': [
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/vocals/vocals_1.jpg'),
+    ]
   },
   {
     'orgsName': 'choreos',
@@ -167,7 +214,10 @@ const orgsDescriptions = [
     'description1': 'The role of choreographer is very rewarding for both entry level and experienced choreographers alike. You will be responsible for creating and teaching the choreo of a single dance piece, which may either involve the whole of cast, or a select subset of more rhythmically talented casties. You will have approximately 2 hours of rehearsal time a week to teach your dance piece over a 7-week period. You may choreo in a pair with someone else, given a suitable number of applicants.',
     'responsibilities': [
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+      require('./orgspics/choreos/choreos_1.jpg'),
+    ]
   },
   {
     'orgsName': 'vos',
@@ -175,7 +225,9 @@ const orgsDescriptions = [
     'description1': 'Voice overs fill the gaps between lights down and lights up whilst the stage is being set with humorous jokes and live audio content. As voice overs, you will be responsible for creating this content and reciting it from the commentary booth during show nights, when prompted to by the stage director. You may also be given sketch VOs by the directors to recite at specific times during a sketch. You will be required at select show run-throughs during the weeks leading up to show.',
     'responsibilities': [
     ], 
-    'description2': ''
+    'description2': '',
+    'images': [
+    ]
   }
 
 ]
