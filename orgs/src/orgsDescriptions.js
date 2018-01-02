@@ -140,6 +140,8 @@ const orgsDescriptions = [
     'description2': 'Band heads must be available for: Band rehearsals(organised by heads), Tech run, Dress run, show nights.',
     'images': [
       require('./orgspics/band/band_1.jpg'),
+      require('./orgspics/band/band_2.jpg'),
+      require('./orgspics/band/band_3.jpg'),
     ]
   },
   {
@@ -195,6 +197,8 @@ const orgsDescriptions = [
     'description2': 'This role will involve consistent work across both semesters.',
     'images': [
       require('./orgspics/scripts/scripts_1.jpg'),
+      require('./orgspics/scripts/scripts_2.jpg'),
+      require('./orgspics/scripts/scripts_3.jpg'),
     ]
   },
   {
@@ -206,6 +210,8 @@ const orgsDescriptions = [
     'description2': '',
     'images': [
       require('./orgspics/vocals/vocals_1.jpg'),
+      require('./orgspics/vocals/vocals_2.jpg'),
+      require('./orgspics/vocals/vocals_3.jpg')
     ]
   },
   {
@@ -217,6 +223,8 @@ const orgsDescriptions = [
     'description2': '',
     'images': [
       require('./orgspics/choreos/choreos_1.jpg'),
+      require('./orgspics/choreos/choreos_2.jpg'),
+      require('./orgspics/choreos/choreos_3.jpg'),
     ]
   },
   {
@@ -227,6 +235,7 @@ const orgsDescriptions = [
     ], 
     'description2': '',
     'images': [
+      require('./orgspics/vos/vos_1.jpg')
     ]
   }
 
