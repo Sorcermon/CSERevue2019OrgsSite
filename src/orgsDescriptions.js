@@ -43,6 +43,7 @@ const orgsDescriptions = [
       'Hoodie designs',
       'A6 size flyers',
       '24-page programme',
+      'Show logo',
       'Potentially other designs that will help promote the society and the show'
     ],
     'description2': '',
