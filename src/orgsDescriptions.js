@@ -91,6 +91,7 @@ const orgsDescriptions = [
     'images': [
       require('./orgspics/wellbeing/wellbeing_1.jpg'),
       require('./orgspics/wellbeing/wellbeing_2.jpg'),
+      require('./orgspics/wellbeing/wellbeing_3.jpg')
     ]
   },
   {
