@@ -27,15 +27,22 @@ class OrgsHeader extends Component{
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/videos.png')} />
     } else if (this.props.orgsHeaderName === 'Scripts') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/scripts.png')} />
-    } else if (this.props.orgsHeaderName === 'Vocals') {
+    } else if (this.props.orgsHeaderName === 'Vocal Directors') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/vocals.png')} />
     } else if (this.props.orgsHeaderName === 'Choreographers') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/choreos.png')} />
     } else if (this.props.orgsHeaderName === 'Voice Overs') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/vos.png')} />
+    } else if (this.props.orgsHeaderName === 'Marketing') {
+      image = <Image inline verticalAlign='middle' src={ require('./emojipics/marketing.png')} />
+    } else if (this.props.orgsHeaderName === 'Stage Effects (FX)') {
+      image = <Image inline verticalAlign='middle' src={ require('./emojipics/sfx.png')} />
+    } else if (this.props.orgsHeaderName === 'Arrangements') {
+      image = <Image inline verticalAlign='middle' src={ require('./emojipics/arrangements.png')} />
     }
 
-    return(
+
+    return (
       <Header textAlign='center' as='h1'>
         {image}
         {' '}{this.props.orgsHeaderName}{' '}

@@ -228,7 +228,7 @@ const orgsDescriptions = [
   },
   {
     'orgsName': 'vocals',
-    'orgsHeaderName': 'Vocal Director',
+    'orgsHeaderName': 'Vocal Directors',
     'description1': 'As a vocal director, you will be responsible for teaching cast vocal items for show. Vocal directors may also have the opportunity to work one-on-one with vocal soloists to improve their singing. The responsibilities for vocal directors include:',
     'responsibilities': [
       'Working with the other vocal directors to teach cast vocal items',
