@@ -32,7 +32,7 @@ class OrgsMenu extends Component {
               <Menu.Item as={ NavLink } to="/choreos" name='choreos' active={activeItem === 'choreos'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to="/vos" name='voice overs' active={activeItem === 'voice overs'} onClick={this.handleItemClick} />
               <Menu.Item as={ NavLink } to="/arrangements" name='arrangements' active={activeItem === 'arrangements'} onClick={this.handleItemClick} />
-              <Menu.Item as={ NavLink } to="/fx" name='stage fx' active={activeItem === 'stage fx'} onClick={this.handleItemClick} />
+              <Menu.Item as={ NavLink } to="/fx" name='Stage FX' active={activeItem === 'Stage FX'} onClick={this.handleItemClick} />
             </Menu>
           </div>
         </div>
