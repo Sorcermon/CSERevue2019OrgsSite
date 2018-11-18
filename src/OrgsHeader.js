@@ -13,7 +13,7 @@ class OrgsHeader extends Component{
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/design.png')} />
     } else if (this.props.orgsHeaderName === 'Costumes') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/costumes.png')} />
-    } else if (this.props.orgsHeaderName === 'Wellbeing') {
+    } else if (this.props.orgsHeaderName === 'Hospitality') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/wellbeing.png')} />
     } else if (this.props.orgsHeaderName === 'Publicity') {
       image = <Image inline verticalAlign='middle' src={ require('./emojipics/publicity.png')} />

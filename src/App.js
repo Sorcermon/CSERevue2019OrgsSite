@@ -10,7 +10,7 @@ const App = () => {
     <div className="App">
       <Segment attached color='green' textAlign='center' style={{ minHeight: 50}} inverted >
         <Image src={ require('./orgspics/logo.png')} style={{ marginTop: 0, marginBottom: 0 }} size='tiny' inline />
-        <Header style ={{marginBottom: 0}} color='black' size='huge'>2018 Orgs Head Role Descriptions</Header>
+        <Header style ={{marginBottom: 0}} color='black' size='huge'>2019 Orgs Head Role Descriptions</Header>
       </Segment>
       
       <BrowserRouter>
@@ -22,16 +22,18 @@ const App = () => {
           <Route path="/webmin" render={() => <Orgs orgName="webmin" />} />
           <Route path="/design" render={() => <Orgs orgName="design" />} />
           <Route path="/costumes" render={() => <Orgs orgName="costumes" />} />
-          <Route path="/wellbeing" render={() => <Orgs orgName="wellbeing" />} />
-          <Route path="/publicity" render={() => <Orgs orgName="publicity" />} />
+          <Route path="/hospitality" render={() => <Orgs orgName="hospitality" />} />
           <Route path="/foh" render={() => <Orgs orgName="foh" />} />
           <Route path="/band" render={() => <Orgs orgName="band" />} />
           <Route path="/promotions" render={() => <Orgs orgName="promotions" />} />
+          <Route path="/marketing" render={() => <Orgs orgName="marketing" />} />
           <Route path="/videos" render={() => <Orgs orgName="videos" />} />
           <Route path="/scripts" render={() => <Orgs orgName="scripts" />} />
           <Route path="/vocals" render={() => <Orgs orgName="vocals" />} />
           <Route path="/choreos" render={() => <Orgs orgName="choreos" />} />
           <Route path="/vos" render={() => <Orgs orgName="vos" />} />
+          <Route path="/fx" render={() => <Orgs orgName="fx" />} />
+          <Route path="/arrangements" render={() => <Orgs orgName="arrangements" />} />
 
         </div>
       </BrowserRouter>
