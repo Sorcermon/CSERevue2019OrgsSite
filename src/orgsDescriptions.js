@@ -15,7 +15,7 @@ const orgsDescriptions = [
       require('./orgspics/socials/socials_1.jpg'),
       require('./orgspics/socials/socials_2.jpg'),
       require('./orgspics/socials/socials_3.jpg')
-    ]
+    ],
   },
   {
     'orgsName': 'webmin',
@@ -30,8 +30,7 @@ const orgsDescriptions = [
     'description2': '',
     'images': [
       require('./orgspics/webmin/webmin_1.jpg'),
-    ]
-
+    ],
   },
   {
     'orgsName': 'design',
@@ -50,7 +49,7 @@ const orgsDescriptions = [
       require('./orgspics/design/design_1.jpg'),
       require('./orgspics/design/design_2.PNG'),
       require('./orgspics/design/design_3.jpg')
-    ]
+    ],
   },
   {
     'orgsName': 'costumes',
@@ -68,7 +67,8 @@ const orgsDescriptions = [
       require('./orgspics/costumes/costumes_1.jpg'),
       require('./orgspics/costumes/costumes_2.jpg'),
       require('./orgspics/costumes/costumes_3.jpg')
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'hospitality',
@@ -150,7 +150,8 @@ const orgsDescriptions = [
       require('./orgspics/band/band_1.jpg'),
       require('./orgspics/band/band_2.jpg'),
       require('./orgspics/band/band_3.jpg'),
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'promotions',
@@ -206,7 +207,8 @@ const orgsDescriptions = [
       require('./orgspics/videos/videos_1.jpg'),
       require('./orgspics/videos/videos_2.png'),
       require('./orgspics/videos/videos_3.jpg')
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'scripts',
@@ -224,7 +226,8 @@ const orgsDescriptions = [
       require('./orgspics/scripts/scripts_1.jpg'),
       require('./orgspics/scripts/scripts_2.jpg'),
       require('./orgspics/scripts/scripts_3.jpg'),
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'vocals',
@@ -241,7 +244,8 @@ const orgsDescriptions = [
       require('./orgspics/vocals/vocals_1.jpg'),
       require('./orgspics/vocals/vocals_2.jpg'),
       require('./orgspics/vocals/vocals_3.jpg')
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'choreos',
@@ -258,7 +262,8 @@ const orgsDescriptions = [
       require('./orgspics/choreos/choreos_1.jpg'),
       require('./orgspics/choreos/choreos_2.jpg'),
       require('./orgspics/choreos/choreos_3.jpg'),
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'vos',
@@ -271,7 +276,8 @@ const orgsDescriptions = [
     'description2': 'You will be required at select show run-throughs during the weeks leading up to show.',
     'images': [
       require('./orgspics/vos/vos_1.jpg')
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'arrangements',
@@ -290,7 +296,8 @@ const orgsDescriptions = [
       'Vocal directors to arrange vocal items for show.',
     ],
     'images': [
-    ]
+    ],
+    creative: true,
   },
   {
     'orgsName': 'fx',
@@ -304,7 +311,8 @@ const orgsDescriptions = [
     ], 
     'description2': '',
     'images': [
-    ]
+    ],
+    creative: true,
   }
 ]
 

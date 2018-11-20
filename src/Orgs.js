@@ -5,8 +5,13 @@ import OrgsHeader from './OrgsHeader'
 
 class Orgs extends Component {
 
+  // Have a different button for creative and non creative orgs
   apply = () => {
-    // window.open('https://docs.google.com/forms/d/e/1FAIpQLSeCDeFyoBL_rEpWZZ-lTfmQWpk4bjnN3HP2kcCeUaKYMHnvGw/viewform?usp=sf_link', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSeuBf5cixesycwOXg6UqL4DhvRyk57aYDbCtIqMnzEAuRgaPQ/viewform?usp=sf_link', '_blank');
+  }
+
+  applyCreative() {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSeMT3r7t4G5-wjxM12KGN3-s6dtvBuM6_YFe0kBTzCS0sgDlQ/viewform?usp=sf_link', '_blank');
   }
 
   render() {
@@ -49,7 +54,20 @@ class Orgs extends Component {
         </Container>
         <p />
         <Container textAlign='center'>
-          <Button onClick={this.apply} circular color='green' size='huge'>Apply Now</Button>
+          <Button
+            onClick={() => {
+              if (orgsDescription.creative) {
+                this.applyCreative();
+              } else {
+                this.apply();
+              }
+            }}
+            circular
+            color='green'
+            size='huge'
+          >
+            Apply Now
+          </Button>
           <p />
           <Image.Group size='medium'>
             {orgsDescription.images.map(function(image, index){
